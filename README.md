@@ -11,6 +11,7 @@ Utiliser comme ci-après l'outil de diagnostic ping intégré.
 Etablir ensuite une règle dans Firewall -> Rules pour bloquer l'accès internet au client.  
 Pour ce faire, indiquer comme source dans la partie LAN l'adresse IP du client.  
 Il est aussi possible de créer un alias pour utiliser l'adresse MAC du client.
+Sélectionnez les protocoles à bloquer (ici nous les bloquons tous) et indiquer la destination (ici le WAN).
 
 ![image](/Pfsense/Rules.png)  
 
