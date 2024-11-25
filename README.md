@@ -16,9 +16,9 @@ Il est aussi possible de créer un alias pour utiliser l'adresse MAC du client.
 
 Faites un ping vers internet puis appliquer la règle. Le second ping ne marche pas.  
 
-![image](Ppfsense/pingClient.png)  
+![image](Pfsense/pingClient.png)  
 
 
 Tester sur le poste admin si internet est toujours accessible, ce qui doit être le cas.  
 
-![image](Ppfsense/pingAdmin.png)  
+![image](Pfsense/pingAdmin.png)  
