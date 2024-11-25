@@ -12,13 +12,13 @@ Etablir ensuite une règle dans Firewall -> Rules pour bloquer l'accès internet
 Pour ce faire, indiquer comme source dans la partie LAN l'adresse IP du client.  
 Il est aussi possible de créer un alias pour utiliser l'adresse MAC du client.
 
-![image](/pfsense/Rules.png)  
+![image](/Pfsense/Rules.png)  
 
 Faites un ping vers internet puis appliquer la règle. Le second ping ne marche pas.  
 
-![image](/pfsense/pingClient.png)  
+![image](Ppfsense/pingClient.png)  
 
 
 Tester sur le poste admin si internet est toujours accessible, ce qui doit être le cas.  
 
-![image](/pfsense/pingAdmin.png)  
+![image](Ppfsense/pingAdmin.png)  
